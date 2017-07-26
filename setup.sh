@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # create and own the directories to store results locally
-save_dir='/var/lib/tf_seq2seq_chatbot'
+save_dir='.'
 mkdir -p $save_dir'/data/'
 mkdir -p $save_dir'/nn_models/'
 mkdir -p $save_dir'/results/'
